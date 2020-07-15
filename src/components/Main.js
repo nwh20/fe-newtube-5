@@ -1,4 +1,5 @@
 import React from 'react';
+import './Main.scss';
 
 const Main = ({video}) => {
 	if (!video) {
@@ -9,14 +10,10 @@ const Main = ({video}) => {
 	const url = `https://www.youtube.com/embed/${videoId}`;
 
 	return (
-		<>
-			<div>
-				<iframe src={url} title="main"></iframe>
-			</div>
-			<div>
-				<div>{video.snippet.title}</div>
-			</div>
-		</>
+		<div className="page-main-video">
+			<iframe src={url} title="main"></iframe>
+			<div className="page-main-video-title">{video.snippet.title}</div>
+		</div>
 	);
 }
 

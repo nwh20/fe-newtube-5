@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import List from './components/List';
 import Main from './components/Main';
 import Default from 'youtube-api-search';
-import './App.css';
 
 const App = () => {
     const [videos, setVideos] = useState([]);

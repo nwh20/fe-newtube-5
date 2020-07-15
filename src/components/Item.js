@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './Item.scss';
 
 const VideoItem = ({ video, onVideoSelect }) => {
 	const imageUrl = video.snippet.thumbnails.default.url;
@@ -8,12 +9,11 @@ const VideoItem = ({ video, onVideoSelect }) => {
 	})
 	return (
 		<li onClick={() => onVideoSelect(video)}>
-			<div>
-				<img alt="thn" src={imageUrl} />
+			<div className="page-list-video-thumnail">
+				<img alt="thumbnail" src={imageUrl} />
 			</div>
-			<div>
+			<div className="page-list-video-info">
 				<p>{video.snippet.title}</p>
-				<div>{video.snippet.publishedAt}</div>
 			</div>
 		</li>
 	);

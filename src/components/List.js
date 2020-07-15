@@ -1,5 +1,6 @@
 import React from 'react';
 import Item from './Item';
+import './List.scss';
 
 const List = (props) => {
 	const Items = props.videos.map((video) => {
@@ -9,7 +10,7 @@ const List = (props) => {
 	});
 
 	return (
-		<ul>
+		<ul className="page-list-video">
 			{Items}
 		</ul>
 	);
