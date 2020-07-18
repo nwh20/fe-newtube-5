@@ -1,1 +1,35 @@
 @import '~open-color/open-color';
+
+li {
+    width: 100%;
+    height: calc(80vh / 5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba($color: #d3d3d3, $alpha: 1.0);
+    margin-bottom: 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.page-list-video-thumbnail {
+    height: 100%;
+
+    img {
+        height: 100%;
+    }
+}
+
+.page-list-video-info {
+    margin-left: 10px;
+    position: relative;
+    height: 100%;
+
+    p:nth-child(1) {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    p:nth-child(2) {
+        position: absolute;
+        bottom: 5%;
+    }
+}

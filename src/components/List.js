@@ -10,7 +10,7 @@ const List = (props) => {
 	});
 
 	return (
-		<ul className="page-list-video">
+		<ul>
 			{Items}
 		</ul>
 	);
