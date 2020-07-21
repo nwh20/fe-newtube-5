@@ -1,0 +1,33 @@
+@import '~open-color/open-color';
+
+li {
+  width: calc(100% / 5);
+  height: 350px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba($color: $oc-gray-4, $alpha: 1.0);
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $oc-gray-0;
+    box-shadow: 0 0 5px rgba($color: $oc-gray-6, $alpha: 1.0);
+  }
+}
+
+.page-list-video-box {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.page-list-video-info {
+  padding: 5%;
+  height: 100%;
+  position: relative;
+}

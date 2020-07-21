@@ -10,7 +10,7 @@ const App = () => {
     const [selectedVideo, setSelectedVideo] = useState(null);
     
     useEffect (() => {
-        const KEY = 'AIzaSyBUdrW8JHPAU-UbdHOprviDHn-PSJa7no4'; 
+        const KEY = 'AIzaSyBUdrW8JHPAU-UbdHOprviDHn-PSJa7no4';
         const Search = term => {
             getVideo ({key: KEY, term: term}, (videos) => {
                 setVideos(videos);
@@ -42,7 +42,7 @@ const App = () => {
             </div>
 
         </div>
-    );
+    )
 }
 
 export default App;

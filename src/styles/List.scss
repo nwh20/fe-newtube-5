@@ -1,0 +1,7 @@
+@import '~open-color/open-color';
+@import './_mixins';
+
+ul {
+  @include box();
+  list-style: none;
+}

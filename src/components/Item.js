@@ -1,24 +1,20 @@
-import React, { useEffect } from 'react';
-import './Item.scss';
+import React from 'react';
+import '../styles/Item.scss';
 
 const Item = ({video, onVideoSelect}) => {
 	const imageUrl = video.snippet.thumbnails.default.url;
 
-	useEffect(()=>{
-	
-	})
-
 	return (
 		<li onClick={() => onVideoSelect(video)}>
-			<div className="page-list-video-thumbnail">
+			<div className="page-list-video-box">
 				<img alt="thumbnail" src={imageUrl} />
 			</div>
 			<div className="page-list-video-info">
-				<p>{video.snippet.title}</p>
-				<p>{video.snippet.channelTitle}</p>
+				<p className="title">{video.snippet.title}</p>
+				<p className="channel">{video.snippet.channelTitle}</p>
 			</div>
 		</li>
-	);
+	)
 }
 
 export default Item;
