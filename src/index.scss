@@ -27,7 +27,7 @@ body, html {
     margin: 0 auto;
     margin-top: 10px;
 
-    &-logo{
+    &-logo {
       width: 400px;
     }
 
@@ -54,10 +54,26 @@ body, html {
     height: 50px;
     text-align: center;
 
-    h3{
+    h3 {
       font-size: 1.5rem;
       margin: 0;
       line-height: 50px;
+    }
+  }
+
+  h4 {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: $oc-gray-4;
+    color: $oc-gray-1;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    left: 70%;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $oc-gray-3;
     }
   }
 }

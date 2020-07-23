@@ -12,7 +12,7 @@ const App = () => {
     useEffect (() => {
         const KEY = 'AIzaSyBUdrW8JHPAU-UbdHOprviDHn-PSJa7no4';
         const Search = term => {
-            getVideo ({key: KEY, term: term}, (videos) => {
+            getVideo ({key: KEY, term: term, order: 'date'}, (videos) => {
                 setVideos(videos);
                 setSelectedVideo(videos[0]);
             });
@@ -39,8 +39,8 @@ const App = () => {
                     <h3>The 5 New Videos For Frontend Developer</h3>
                 </div>
                 <List onVideoSelect={selectedVideo => setSelectedVideo(selectedVideo)} videos={videos} />
+                <h4 onClick={() => {window.open('https://github.com/nwh20', '_blank');}}>project by nwheo</h4>
             </div>
-
         </div>
     )
 }

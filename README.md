@@ -5,7 +5,9 @@
 * SCSS
 * Youtube API
 
-Page presenting 5 newest videos of keyword 'FrontEnd' on Youtube.
+Page presenting the 5 newest videos from the keyword 'Frontend' on Youtube.
 
+### Demo
+https://nwh20.github.io/fe-newtube-5
 
 **thanks!**
