@@ -8,8 +8,8 @@ $breakpoint-desktop: 751px;
 }
 
 @mixin box {
-  width: 80%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 900px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);

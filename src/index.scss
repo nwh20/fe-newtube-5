@@ -1,7 +1,5 @@
 @import '~open-color/open-color';
 @import './styles/_mixins';
-$t: title;
-$c: channel;
 
 * {
   margin: 0;
@@ -17,26 +15,6 @@ body, html {
 .App {
   display: flex;
   flex-direction: column;
-}
-  
-p {
-  font-size: 1rem;
-
-  &.#{$t} {
-    font-weight: bold;
-  }
-
-  &.#{$c} {
-    position: absolute;
-    bottom: 5px;
-    text-decoration: underline;
-  }
-
-  &.main {
-    position: relative;
-    bottom: 0;
-    font-size: 1.2rem;
-  }
 }
 
 .page-main {
@@ -67,7 +45,7 @@ p {
 }
 
 .page-list {
-  min-height: 500px;
+  min-height: 400px;
   list-style: none;
   background-color: $oc-gray-1;
 
@@ -88,7 +66,7 @@ p {
 @include mobile {
   html {
     font-size: 13px;
-  }s
+  }
 
   ul {
     flex-direction: column;

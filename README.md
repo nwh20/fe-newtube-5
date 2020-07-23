@@ -5,7 +5,7 @@
 * SCSS
 * Youtube API
 
-Page presenting 5 newest videos of FrontEnd keyword.
-Youtube clone with Youtube API.
+Page presenting 5 newest videos of keyword 'FrontEnd' on Youtube.
+
 
 **thanks!**

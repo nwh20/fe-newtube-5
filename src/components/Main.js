@@ -14,10 +14,6 @@ const Main = ({video}) => {
 			<div className="page-main-video-box">
 				<iframe src={url} title="main" />
 			</div>
-			{/* <div className="page-main-video-info">
-				<p className="title main">{video.snippet.title}</p>
-				<p className="channel main">{video.snippet.channelTitle}</p>
-			</div> */}
 		</div>
 	)
 }

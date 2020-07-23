@@ -1,8 +1,10 @@
 @import '~open-color/open-color';
+$t: title;
+$c: channel;
 
 li {
   width: calc(100% / 5);
-  height: 350px;
+  height: 300px;
   background-color: #ffffff;
   box-shadow: 0 0 5px rgba($color: $oc-gray-4, $alpha: 1.0);
   margin-left: 10px;
@@ -30,4 +32,18 @@ li {
   padding: 5%;
   height: 100%;
   position: relative;
+
+  p {
+    font-size: 1rem;
+  
+    &.#{$t} {
+      font-weight: bold;
+    }
+  
+    &.#{$c} {
+      position: absolute;
+      bottom: 5px;
+      text-decoration: underline;
+    }
+  }
 }
