@@ -1,4 +1,4 @@
-# FE NEWTUBE 5 - Youtube Clone Coding
+# FE NEWTUBE 5 - Youtube API
 
 ### Main Technology Stack
 * React
