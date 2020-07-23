@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac103f44.chunk.css",
-    "main.js": "/static/js/main.53309406.chunk.js",
-    "main.js.map": "/static/js/main.53309406.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ba4ba130.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ba4ba130.js.map",
-    "static/js/2.1094e14e.chunk.js": "/static/js/2.1094e14e.chunk.js",
-    "static/js/2.1094e14e.chunk.js.map": "/static/js/2.1094e14e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0ba7e9724868231c9967fbae94155f32.js": "/precache-manifest.0ba7e9724868231c9967fbae94155f32.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ac103f44.chunk.css.map": "/static/css/main.ac103f44.chunk.css.map",
-    "static/js/2.1094e14e.chunk.js.LICENSE.txt": "/static/js/2.1094e14e.chunk.js.LICENSE.txt",
-    "static/media/main-logo.svg": "/static/media/main-logo.dca1e492.svg",
-    "static/media/youtube-logo.svg": "/static/media/youtube-logo.89b03ae8.svg"
+    "main.css": "/fe-newtube-5/static/css/main.ac103f44.chunk.css",
+    "main.js": "/fe-newtube-5/static/js/main.79199769.chunk.js",
+    "main.js.map": "/fe-newtube-5/static/js/main.79199769.chunk.js.map",
+    "runtime-main.js": "/fe-newtube-5/static/js/runtime-main.7968ab57.js",
+    "runtime-main.js.map": "/fe-newtube-5/static/js/runtime-main.7968ab57.js.map",
+    "static/js/2.1094e14e.chunk.js": "/fe-newtube-5/static/js/2.1094e14e.chunk.js",
+    "static/js/2.1094e14e.chunk.js.map": "/fe-newtube-5/static/js/2.1094e14e.chunk.js.map",
+    "index.html": "/fe-newtube-5/index.html",
+    "precache-manifest.2fa0b1d87f3376816cf1c2ec124e98f2.js": "/fe-newtube-5/precache-manifest.2fa0b1d87f3376816cf1c2ec124e98f2.js",
+    "service-worker.js": "/fe-newtube-5/service-worker.js",
+    "static/css/main.ac103f44.chunk.css.map": "/fe-newtube-5/static/css/main.ac103f44.chunk.css.map",
+    "static/js/2.1094e14e.chunk.js.LICENSE.txt": "/fe-newtube-5/static/js/2.1094e14e.chunk.js.LICENSE.txt",
+    "static/media/main-logo.svg": "/fe-newtube-5/static/media/main-logo.dca1e492.svg",
+    "static/media/youtube-logo.svg": "/fe-newtube-5/static/media/youtube-logo.89b03ae8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba4ba130.js",
+    "static/js/runtime-main.7968ab57.js",
     "static/js/2.1094e14e.chunk.js",
     "static/css/main.ac103f44.chunk.css",
-    "static/js/main.53309406.chunk.js"
+    "static/js/main.79199769.chunk.js"
   ]
 }
